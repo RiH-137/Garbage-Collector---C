@@ -44,6 +44,7 @@ Note:- ".o" file, also known as an object file, is a compiled binary file that c
 **How to run this code on your local system?**
 step1> Clone this project.
 step2> open terminal and run....
+
         1. gcc -c garbage_collector.c -o garbage_collector.o
         2. ar rcs libmy_gc.a garbage_collector.o
         3. gcc test.c -Iinclude -L. -lmy-gc -o test
